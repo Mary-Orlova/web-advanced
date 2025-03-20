@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document svg</title>
+</head>
+
+<body>
+  <div style="width: 400px; background-color: rgba(204, 211, 216, 0.606);">
+    <svg width="200" height="160" viewBox="0 0 200 160" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <!-- уши фон  -->
+      <g fill="#4A4A4A">
+      <ellipse rx="20" ry="26" cx="45" cy="1" transform="rotate(45)" />
+      <ellipse rx="27" ry="22" cx="145" cy="1"  transform="rotate(15)"/>
+     </g>
+
+    <!-- внутри черный-->
+    <g fill="#000000">
+      <ellipse rx="10" ry="12" cx="45" cy="1" transform="rotate(45)" />
+      <ellipse rx="13" ry="15" cx="145" cy="1" transform="rotate(16)" />
+     </g>
+
+    <!-- круг белый  -->
+     <circle r="70" cx="85" cy="75" fill="#ffffff" />
+    <!-- нос черный  -->
+     <ellipse rx="13" ry="9" cx="85" cy="98" fill="#000000"/>
+
+     <!-- глаза фон-->
+     <g fill="#4A4A4A">
+      <ellipse rx="15" ry="20" cx="55" cy="80" />
+      <ellipse rx="15" ry="20" cx="115" cy="80"/>
+     </g>
+
+    <!-- зрачки черный-->
+     <g fill="#000000">
+      <circle r="9" cx="55" cy="74"/>
+      <circle r="9" cx="115" cy="74"/>
+     </g>
+
+    <!-- внутри зрачки -->
+     <g fill="#ffffff">
+      <circle r="4" cx="53" cy="71"/>
+      <circle r="4" cx="113" cy="71"/>
+     </g>
+    </svg>
+  </div>
+</body>
+</html>

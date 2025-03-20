@@ -1,0 +1,21 @@
+:root {
+  /* Шрифт */
+  --regular: 400;
+  --bold: 700;
+  --fs-16: 16px;
+  --fs-30: 30px;
+  --fs-40: 40px;
+  --lh-28: 28px;
+  --lh-32: 32px;
+
+  /* Цвет */
+  --black: #000000;
+  --orange: #FF7A00;
+  --peach: #FFF6ED;
+  --white: ##ffffff;
+
+  /* Размеры*/
+  --body--min-width: 320px;
+  --container-max-width: 1355px;
+  --container-padding: 15px;
+}
