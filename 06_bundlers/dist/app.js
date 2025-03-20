@@ -1,0 +1,1 @@
+"use strict";console.log(1);var o={},l=null==o?void 0:o.prop;console.log(l);
