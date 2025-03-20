@@ -1,0 +1,18 @@
+.block {
+  width: 200px;
+  height: 200px;
+  background-color: navy;
+  animation: anim 3s infinite;
+}
+
+@keyframes anim {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(3.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
